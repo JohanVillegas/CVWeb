@@ -1,0 +1,278 @@
+/*************************
+       Google Fonts
+*************************/
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,300,500,600,700);
+@import 'https://fonts.googleapis.com/css?family=Droid+Serif:40,100,300,500,600,700';
+@import url('https://fonts.googleapis.com/css?family=Just+Another+Hand');
+
+/*************************
+     Global styles
+*************************/
+body{
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    scrollbar-base-color: #07cb79;
+    scrollbar-base-color: #07cb79;
+    scrollbar-3dlight-color: #2f3742;
+    scrollbar-highlight-color: #2f3742;
+    scrollbar-track-color: #2f3742;
+    scrollbar-arrow-color: #2f3742;
+    scrollbar-shadow-color: #2f3742;
+    scrollbar-dark-shadow-color: #2f3742;
+    overflow-x: hidden;
+}
+body, p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: #58666e;
+}
+::selection {
+    background: #07cb79;
+    color: #ffffff;
+    text-shadow: none;
+}
+p{
+    font-size: 16px;
+    font-family: 'Droid Serif', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    /* font-family: 'Raleway', sans-serif; */
+}
+h1{
+    font-size: 36px;
+    line-height: 48px;
+}
+h2{
+    font-size: 28px;
+    line-height: 38px;
+}
+h3{
+    font-size: 24px;
+    line-height: 34px;
+}
+h4{
+    font-size: 18px;
+    line-height: 28px;
+}
+h5{
+    font-size: 14px;
+    line-height: 24px;
+}
+a{
+    transition: 0.5s ease;
+    text-decoration: none;
+}
+a:focus, a:hover {
+    color: #07cb79;
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+input, textarea{
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    font-size: 14px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    color: #07cb79;
+    outline-color: none;
+    outline-style: none;
+    padding-left: 10px;
+    width: 100%;
+    margin-bottom: 22px;
+}
+input:afrer{
+    content:"*";
+}
+textarea{
+    height: 100px;
+}
+input:focus, textarea:focus{
+    outline: none;
+    border-bottom: 1px solid #07cb79 !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #07cb79;
+    border-color: #07cb79;
+    border-radius: 0;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #07cb79;
+    border-color: #07cb79;
+}
+button:focus{
+    outline: 0;
+}
+
+/*************************
+     Scrollbar Page
+*************************/
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+::-webkit-scrollbar-track-piece  {
+    background-color: #2f3742;
+}
+::-webkit-scrollbar-thumb:vertical {
+    height: 30px;
+    background-color: #07cb79;
+}
+
+/*************************
+     Start Loading
+*************************/
+#loading {
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-top: 0px;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    overflow: hidden !important;
+    right: 0px;
+    z-index: 999999;
+    text-align: center;
+}
+#loading img{
+    width:700px;
+    height: 700px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+/*************************
+     Start Sidebar
+*************************/
+.responsive-menu { 
+    display: none; 
+}
+.menu_area{
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+}
+.stick_menu{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    left: 0;
+    right: 0;
+    transition: 0.2s top cubic-bezier(.3,.73,.3,.74);
+    background-color: #2f3742;
+}
+.header_part{
+    /**background: url("img/background.png") repeat scroll center center / cover  rgba(0, 0, 0, 0);**/
+    overflow: hidden;
+}
+.navbar-default {
+    background-color: transparent;
+    border: 0;
+}
+.active{
+    background: #07cb79;
+    color: #fff !important;
+}
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #07cb79;
+}
+.shrink{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background-color: #2f3742;
+}
+.logo {
+    /**margin-bottom: 20px;
+    margin-top: 25px;**/
+    display: block;
+}
+.logo a{
+    display: block;
+    text-align: center;
+    padding: 0 20px;
+}
+.logo a img{
+    width: 100%;
+}
+.nav-sidebar > li > a {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 15px 10px 30px;
+    border-right: 0px solid transparent;
+}
+.nav-sidebar > .active > a, .nav-sidebar > .active > a:focus, .nav-sidebar > .active > a:hover, .nav-sidebar > li > a:hover ,.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus{
+    background: transparent !important;
+    color: #07cb79 !important;
+    box-shadow: 15px 0px 0px 0px #07cb79 inset !important;
+}
+.copyright p {
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 0;
+    padding: 20px 30px;
+    background-color: #2f3742;
+    text-align: center;
+}
+.copyright p a{
+    color: #07cb79;
+}
+.main{
+    padding: 0 !important;
+}
+
+/*************************
+     COMMON SECTIONS STYLE
+*************************/
+.section{
+    padding: 30px 0;
+}
+.container-section{
+    padding: 0 60px;
+}
+.section-title{
+    margin-bottom: 60px;
+    position: relative;
+    text-align: center;
+}
+.section-title:before {
+    border-top: 1px solid #b7b7b7;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.section-title h4 {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #07cb79;
+    color: #363636;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 30px;
+    position: relative;
+    text-transform: uppercase;
+}

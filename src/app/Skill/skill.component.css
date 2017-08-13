@@ -1,0 +1,135 @@
+/*************************
+     COMMON SECTIONS STYLE
+*************************/
+.section{
+    padding: 30px 0;
+}
+.container-section{
+    padding: 0 60px;
+}
+.section-title{
+    /**
+    position: relative;
+    text-align: center;**/
+    
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.section-title-line {
+    border-top: 1px solid #b7b7b7;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.section-title h4 {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid #07cb79;
+    color: #363636;
+    display: inline-block;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+
+/*************************
+     SKILLS SCETION
+*************************/
+.skill h2, .skill-language h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.skill-language h2{
+    text-align: center;
+}
+.skill .progress .lead {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    left: 10px;
+    position: absolute;
+    top: 4px;z-index:99
+}
+.skill .progress {
+    background-color: #F0F0F0;
+    border-radius: 0;
+    height: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: none;
+    color:#333;
+}
+.skill .progress-bar > span {
+    float: right;
+    font-size: 15px;
+    margin-right: 27px;
+    margin-top: 3px;
+}
+.holax-shop h3,.we-are-good-at h3{
+    font-size: 18px;                             
+    margin-bottom: 25px;
+}
+.skill .progress:nth-child(1) .progress-bar {
+    background: #F46E6E;
+}
+.skill .progress:nth-child(2) .progress-bar {
+    background: #5476A9;
+}
+.skill .progress:nth-child(3) .progress-bar {
+    background: #63AD68;
+}
+.skill .progress:nth-child(4) .progress-bar {
+    background: #23C6EC;
+}
+.skill .progress:nth-child(5) .progress-bar {
+    background: #ff6600;
+}
+.skill .progress:nth-child(6) .progress-bar {
+    background: #000;
+}
+#skills p{
+    line-height: 30px;
+}
+.skill-content h2 {
+    margin-top: -7px;
+    font-size: 24px;
+}
+.skills{
+    padding-top: 20px;
+}
+.percentage.easyPieChart > span, .percentage.easyPieChart {
+    color: #7e8c8d;
+    font-size: 48px;
+}
+.percentage.easyPieChart {
+    font-size: 27px;
+}
+.easyPieChart {
+    position: relative;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+.easyPieChart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.skills small {
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    padding-top: 10px;
+    color: #5c5c5c;
+}
+.skill-language{
+    margin-top: 30px;
+}
+
+.progress-bar{
+    height: 100%;
+}
