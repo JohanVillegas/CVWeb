@@ -74,13 +74,13 @@
     font-size: 18px;                             
     margin-bottom: 25px;
 }
-.skill .progress:nth-child(1) .progress-bar {
+.skill .progress:nth-child(3) .progress-bar {
     background: #F46E6E;
 }
 .skill .progress:nth-child(2) .progress-bar {
     background: #5476A9;
 }
-.skill .progress:nth-child(3) .progress-bar {
+.skill .progress:nth-child(1) .progress-bar {
     background: #63AD68;
 }
 .skill .progress:nth-child(4) .progress-bar {
